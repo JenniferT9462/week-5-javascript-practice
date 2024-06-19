@@ -11,12 +11,17 @@
 <body>
   <h1>Day 2 Part C</h1>
   <h3>You Try it!</h3>
-  <p>Ask the user two questions using propmt. Then give the user a personalized response using the data entered.</p>
+  <p>Ask the user two questions using prompt. Then give the user a personalized response using the data entered.</p>
   <script>
+    let Name;
+    let boardGame;
+    let tvShow;
+    userName = prompt("What is your name?");
+    boardGame = prompt("What is your favorite board game?");
+    tvShow = prompt("What is your favorite TV show?");
 
-
-
-  </script>
+    document.write(`Hi ${userName}, I like ${boardGame} too! And binge watching ${tvShow}!`);
+ </script>
 
 </body>
 
